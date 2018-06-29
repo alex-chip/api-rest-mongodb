@@ -1,0 +1,27 @@
+{
+  "name": "api-rest-mysql",
+  "version": "0.0.1",
+  "description": "Api REST MVC con MongoDB, Express y NodeJS",
+  "main": "server.js",
+  "author": "@alexchip42",
+  "license": "MIT",
+  "scripts": {
+    "start": "supervisor server.js"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "MongoDB",
+    "MVC"
+  ],
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-method-override": "0.0.3",
+    "mongoose": "^5.1.7",
+    "morgan": "^1.9.0",
+    "pug": "^2.0.3",
+    "responsimple": "^1.0.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
